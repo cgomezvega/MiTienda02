@@ -1,0 +1,18 @@
+Crear repositorio público en GitHub, darle un nombe y una descripción
+Crear una carpeta en el disco duro
+Abrir la carpeta con vscode
+Abrir un terminal en vscode y escribir los siguientes comandos:
+git init
+git remote add origin https://github.com/cgomezvega/mascotas01.git
+Crear index.html
+git status
+git add .
+git status
+git commit -m "Agregado index.html"
+git status
+git push --set-upstream origin master
+En GitHub presionar en el nombre del proyecto
+Si hay cambios de otro usuario
+git checkout master
+git fetch origin
+git pull
